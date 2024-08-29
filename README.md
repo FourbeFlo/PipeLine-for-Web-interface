@@ -5,4 +5,4 @@ the processing chain for transforming the xmlalto into xmltei, putting it online
 
 * for now the test corpora are chap 4 and 5 of Lambertus Daneaus commentary on Thimothee :  https://doi.org/10.3931/e-rara-6338 
 # Flowchart for data processing
-![Flowchart](https://github.com/FourbeFlo/PipeLine-for-Web-interface/blob/main/Paul_Pipeline.drawio.png)
+![Flowchart](https://github.com/FourbeFlo/PipeLine-for-Web-interface/blob/main/Paul_Pipeline.png)
