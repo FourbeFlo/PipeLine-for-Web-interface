@@ -1,0 +1,231 @@
+/* the css of my actual Websitwe 28.09.24 */
+/* General Styles */
+body {
+  font-family: "Junicode", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Title Styles */
+.title {
+  font-variant: small-caps;
+  font-size: large;
+  text-align: center;
+  margin: 2em 0;
+}
+
+/* Quotation Styles */
+.quotation {
+  font-style: italic;
+}
+
+/* Document Layout */
+.document {
+  margin: 1em;
+}
+
+p {
+  text-indent: 1em;
+  text-align: justify;
+}
+
+/* Text Decorations */
+span.persName {
+  border-bottom: 1px dashed;
+}
+
+span.placeName {
+  border-bottom: 1px dotted;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+/* Greek Text Styling */
+.greek {
+  font-family: 'Pantone', serif;
+}
+
+/* Verset Styling */
+.verset {
+  font-variant: small-caps;
+  color: lightgrey;
+  margin: 0.1cm 0.5cm;
+}
+
+/* Main Content Styling */
+#main {
+  margin: 3em;
+}
+
+/* Table Styles */
+.table {
+  border-spacing: 10px;
+  width: 100%;
+  display: table;
+}
+
+.td {
+  text-align: justify;
+}
+
+/* Paragraph Styles */
+.para {
+  width: 50%;
+  font-size: 120%;
+}
+
+.paraImage {
+  width: 100%;
+  height: auto;
+}
+
+/* Expansions */
+.expan {
+  font-style: italic;
+}
+
+/* Drop Cap */
+.drop {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+#footer {
+  background-color: black;
+  padding: 1em 0;
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+}
+
+/* Sidebar Styles */
+/* General Styles */
+body {
+  font-family: "Junicode", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Title Styles */
+.title {
+  font-variant: small-caps;
+  font-size: large;
+  text-align: center;
+  margin: 2em 0;
+}
+
+/* Sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 32px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Buttons */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.openbtn a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.download {
+  float: right;
+}
+
+.download .openbtn {
+  margin-left: 10px;
+}
+
+/* Main Content Styling */
+#main {
+  margin: 3em;
+}
+
+/* Footer */
+#footer {
+  background-color: black;
+  padding: 1em 0;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+.logo2{
+  height: 40px;
+  width: auto;
+}
+
+/* Footnotes Styling */
+.fw {
+  color: darkgrey;
+}
+
+.fw_number {
+  color: darkgrey;
+  text-align: right;
+}
+
+.fw_running {
+  color: darkgrey;
+  text-align: center;
+}
+
+.fw_quire {
+  color: darkgrey;
+  float: right;
+  text-align: right;
+}
+
+.paraNum {
+  color: darkgrey;
+}
