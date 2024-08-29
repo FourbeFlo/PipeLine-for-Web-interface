@@ -41,9 +41,9 @@
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="href">
-                                    <xsl:text>../TEI/</xsl:text>
-                                    <xsl:value-of select="//TEI/@xml:id"/>
-                                    <xsl:text>.xml</xsl:text>
+                                    <xsl:text>file:/home/floriane/Documents/PaulPipeline/chap3-4-pipeline/Website_Paul_projet/normalized_tei7.xml</xsl:text>
+                                    <!--<xsl:value-of select="//TEI/@xml:id"/> 
+                                    <xsl:text>.xml</xsl:text>   -->
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
                                     <xsl:text>_blank</xsl:text>
