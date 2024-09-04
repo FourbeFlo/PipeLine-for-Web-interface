@@ -83,25 +83,6 @@ def normalize_latin_text(text):
     for pattern, replacement in replacements.items():
          text = re.sub(pattern, replacement, text)
     return text
-   
-""" uses and  test 
-for testing the file and add new parameter make the test on txt file, then
-implement the fonction on the xml 
-    #use test-file.txt 
     
-def save_print_normalized_text(input_file_path, output_file_path):
-    # Read the content from the input file
-    with open(input_file_path, 'r', encoding='utf-8') as file:
-        text = file.read()
-        # Normalize the text
-    normalized_text = normalize_latin_text(text)
-    # Write the normalized text to the output file
-    with open(output_file_path, 'w', encoding='utf-8') as file:
-        file.write(normalized_text)
-
-    #print(normalized_text)
-
-# Example usage
-input_file_path = 'for_normalisation.txt'  # Path to your input file
-output_file_path = 'normalized_latin.txt'  # Path to your output file
-save_print_normalized_text(input_file_path, output_file_path)"""
+""" use the main function for implement the code on xml or txt file """ 
+   
