@@ -84,5 +84,5 @@ def normalize_latin_text(text):
          text = re.sub(pattern, replacement, text)
     return text
     
- """Use the main function to implement the code for processing an XML or TXT file."""
+ """Use the main function (main_normalization.py) to implement the code for processing an XML or TXT file."""
    
