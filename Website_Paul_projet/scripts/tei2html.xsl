@@ -14,12 +14,13 @@
                     <!-- Extract the title from short title -->
                     <xsl:value-of select="TEI//title[2]"/>
                 </title>
-                <link href="file:/home/floriane/Documents/PaulPipeline/chap3-4-pipeline/Website_Paul_projet/CSS/style2.css" rel="stylesheet"></link>
-                <script type="text/javascript" src="file:/home/floriane/Documents/PaulPipeline/chap3-4-pipeline/Website_Paul_projet/JS/script.js"></script>
+                <!-- do not forget to change the path to the css and json -->
+                <link href="file:/home/floriane/Documents/Lambert_Daneau/PipeLine-for-Web-interface/Website_Paul_projet/CSS/style2.css" rel="stylesheet"></link>
+                <script type="text/javascript" src="file:/home/floriane/Documents/Lambert_Daneau/PipeLine-for-Web-interface/Website_Paul_projet/JS/script.js"></script>
             </head>
             <body>
                 <div id="mySidebar" class="sidebar">
-                    <a href="file:/home/floriane/Documents/PaulPipeline/chap3-4-pipeline/Website_Paul_projet/HTML/home.html">Accueil</a>
+                    <a href="file:/home/floriane/Documents/Lambert_Daneau/PipeLine-for-Web-interface/Website_Paul_projet/HTML/home.html">Accueil</a>
                     <a href="https://github.com/FourbeFlo">Construction du projet: Github</a>
                     <a href="https://rrp.zahnd.be/">RRP | Reformation Readings of Paul</a>
                 </div> 
@@ -41,7 +42,7 @@
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="href">
-                                    <xsl:text>file:/home/floriane/Documents/PaulPipeline/chap3-4-pipeline/Website_Paul_projet/normalized_tei7.xml</xsl:text>
+                                    <xsl:text>file:/home/floriane/Documents/Lambert_Daneau/PipeLine-for-Web-interface/Website_Paul_projet/normalized_tei7.xml</xsl:text>
                                     <!--<xsl:value-of select="//TEI/@xml:id"/> 
                                     <xsl:text>.xml</xsl:text>   -->
                                 </xsl:attribute>

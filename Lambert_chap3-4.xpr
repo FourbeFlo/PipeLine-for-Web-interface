@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>Website_Paul_projet/scripts/tei2html_FG_test.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>FG-html</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>Website_Paul_projet/scripts/tei2html.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -30,7 +50,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Website_Paul_projet/scripts/tei2htmlFG.xsl</String>
+                                    <String>Website_Paul_projet/normalized_tei7.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -50,7 +70,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Website_Paul_projet/normalized_tei7.xml</String>
+                                    <String>Website_Paul_projet/scripts/tei2htmlFG.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -1363,7 +1383,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/Website_Paul_projet/scripts/tei2htmlFG.xsl</String>
+                                    <String>file:/home/floriane/Documents/Lambert_Daneau/PipeLine-for-Web-interface/Website_Paul_projet/scripts/tei2html_FG_test.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/Website_Paul_projet/normalized_tei7.xml</String>
@@ -1384,7 +1404,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/Website_Paul_projet/2_Lambertus.html</String>
+                                    <String>${pd}/Website_Paul_projet/2test_Lambertus.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
